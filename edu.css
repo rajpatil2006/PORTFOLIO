@@ -1,0 +1,116 @@
+body
+  {
+    background-color: #3fcfa2;
+    overflow: hidden;
+  }
+#ssc-img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left:50px;
+  }
+  #header
+  {
+    text-align: center;
+    font-size: 30px;
+    color:#000000 ;
+    font-family: 'fangsong';
+    margin-top:0;
+    opacity:80%;
+  }
+  #container{
+    display: flex;
+  }
+  #ssc{
+    padding: 30px;
+    margin:15px;
+    width:33%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  #ssc-head{
+    color:rgb(91, 58, 121);
+    font-weight: bolder;
+    opacity: 100%;
+    font-size: x-large;
+  }
+  #ssc-name{
+    color:black;
+    opacity: 80%;
+    font-weight: bolder;
+  }
+  #ssc-per{
+    margin-top: 10px;
+  }
+  #dip{
+    padding: 30px;
+    margin:15px;
+    width:33%;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  #dip-head
+  {
+   
+    color:rgb(91, 58, 121);
+    font-weight: bolder;
+    opacity: 100%;
+    
+    font-size: x-large;
+  }
+  #dip-name{
+    color:black;
+    opacity: 80%;
+    font-weight: bolder;
+  }
+  #dip-img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   margin-left:0;
+  }
+  #dip-per{
+    margin-top: 10px;
+  }
+  #engg{
+    padding: 30px;
+    margin:15px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  #engg-head{
+    color:rgb(91, 58, 121);
+    font-weight: bolder;
+    opacity: 100%;
+   
+    font-size: x-large;
+  }
+  #engg-name{
+    color:black;
+    opacity: 80%;
+    font-weight: bolder;
+  }
+  #engg-img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left:50px;
+  }
+  #engg-per{
+    margin-top: 10px;
+  }
+  #tag{
+    margin-left: 10px;
+    font-weight: bold;
+   color:rgb(170 113 31);
+  }
+#menu{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+#menu-item{
+    padding: 10px;
+    font-size: large;
+    color: black;
+}
+#menu-item:hover{
+    color:rgb(228, 107, 245);
+}

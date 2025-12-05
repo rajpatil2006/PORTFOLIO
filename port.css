@@ -1,0 +1,83 @@
+body{
+    width:100%;
+    position: absolute;
+    overflow: hidden;
+    
+}
+#menu{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+#menu-item{
+    padding: 10px;
+    font-size: large;
+    color: black;
+}
+#menu-item:hover{
+    color:rgb(228, 107, 245);
+}
+#intro{
+    margin-top: 100px;
+    width:50%;
+    margin-left:100px;
+}
+#intro-name{
+    opacity:75%;
+}
+#intro-name-hii{
+    color:rgb(228, 107, 245);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#intro-name-my{
+  margin-top: 10px;
+  font-size: 50px;
+  
+} 
+#intro-name-my-2{
+    color:rgb(72, 138, 116);
+}
+    
+#container{
+    display:flex;
+}
+#left{
+    width:50%;
+}
+#right{
+    background-image: radial-gradient(at top right, transparent 67%, #fff 50.5%),
+    linear-gradient(135deg, #51a595 0%, #3fcfa2 70%);
+background-size: 100% 100%,cover;
+background-repeat: no-repeat;
+margin: 0;
+height: 100vh;
+    width:48%;
+    opacity:100%;
+}
+#photo{
+    margin-top:80px;
+    margin-left:50%;
+    
+}
+#myimg{
+   border: 1px solid #0000ff;;
+   border-radius: 190px;
+   box-shadow: 10px black;
+    opacity:100%;
+    background-color: rgb(166 253 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+#about{
+   text-align: justify;
+   margin-left:100px;
+   opacity:70%;
+   padding:10px;
+   padding-top: 20px;
+   font-family: system-ui;
+   font-size: large;
+   width:90%;
+   color:black
+
+}

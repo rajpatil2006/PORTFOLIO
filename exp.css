@@ -1,0 +1,99 @@
+body
+  {
+    background-color: #3fcfa2;
+    overflow: hidden;
+  }
+  #header
+  {
+    text-align: center;
+    font-size: 30px;
+    color:#000000 ;
+    font-family: 'fangsong';
+    margin-top:0;
+    opacity:80%;
+  }
+  #menu{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+#menu-item{
+    padding: 10px;
+    font-size: large;
+    color: black;
+}
+#menu-item:hover{
+    color:rgb(228, 107, 245);
+}
+#container{
+    display: flex;
+}
+#project{
+    width:50%;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#proj-head{
+    font-size: larger;
+    font-weight: bolder;
+    color:blueviolet;
+    text-align: center;
+    font-size:30px;
+    opacity:60%;
+}
+#proj-title
+{
+    margin-top:10px;
+    font-size: large;
+    font-weight: bold;
+    opacity:80%;
+    font-size: 18px;
+    text-align: center;
+}
+#proj-desc{
+    margin-top:20px;
+    margin-left:50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+#proj-tech{
+    margin-top:20px;
+    margin-left:50px;
+    margin-right: 50px;
+   
+}
+#proj-skill{
+    margin-top:20px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+#skill{
+    width:50%;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left:20px;
+}
+#skill-head
+{
+    font-size: larger;
+    font-weight: bolder;
+    color:blueviolet;
+    text-align: center;
+    font-size:30px;
+    opacity:60%;
+}
+#skill-list
+{
+    margin-top:20px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+#s-list{
+    margin-top:5px;
+    font-size: large;
+    font-style: oblique;
+}

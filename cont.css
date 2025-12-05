@@ -1,0 +1,71 @@
+body
+  {
+    background-color: #3fcfa2;
+    overflow: hidden;
+  }
+  #header
+  {
+    text-align: center;
+    font-size: 30px;
+    color:#000000 ;
+    font-family: 'fangsong';
+    margin-top:0;
+    opacity:80%;
+  }
+  #menu{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+#menu-item{
+    padding: 10px;
+    font-size: large;
+    color: black;
+}
+#menu-item:hover{
+    color:rgb(228, 107, 245);
+}
+#link{
+    padding: 30px;
+    margin:15px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width:25%;
+    text-align: center;
+    
+}
+#id{
+    margin-top:20px
+}
+#insta{
+    padding: 30px;
+    margin:15px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width:25%;
+    text-align: center;
+}
+
+#gmail{
+    padding: 30px;
+    margin:15px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width:25%;
+    text-align: center;
+}
+#phone{
+    padding: 30px;
+    margin:15px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width:25%;
+    text-align: center;
+}
+#container{
+    display: flex;
+}
